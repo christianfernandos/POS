@@ -8,19 +8,19 @@ class ProductController extends Controller
 {
     
     public function foodBeverage() {
-        return view('products.food-beverage');
+        return view('category.food_beverage');
     }
 
     public function beautyHealth() {
-        return view('products.beauty-health');
+        return view('category.beauty_health');
     }
 
     public function homeCare() {
-        return view('products.home-care');
+        return view('category.home_care');
     }
 
     public function babyKid() {
-        return view('products.baby-kid');
+        return view('category.baby_kid');
     }
 
 }
